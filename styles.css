@@ -154,7 +154,7 @@ a{
 .sign-up{
     display: flex;
     background-color: #3882F6;
-    margin: 150px;
+    margin: 150px auto;
     padding: 50px;
     text-align: left;
     font-family: Roboto;
@@ -162,6 +162,7 @@ a{
     flex-wrap: wrap;
     align-items: center;
     gap: 50px;
+    width: 750px;
 }
 
 .sign-up-text{
@@ -184,6 +185,8 @@ a{
     cursor: pointer;
     white-space: nowrap;
     flex-shrink: 0;
+    font-family: Roboto;
+    font-weight: bold;
 }
 
 .footer{
